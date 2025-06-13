@@ -1,7 +1,5 @@
 FROM chatwoot:development
 
-USER root
-
 ENV PNPM_HOME="/root/.local/share/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 
